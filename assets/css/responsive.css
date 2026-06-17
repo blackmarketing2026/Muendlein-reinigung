@@ -92,6 +92,9 @@
   h1 { font-size: 1.65rem; }
   h2 { font-size: 1.4rem; }
 
+  .logo-mark { width: 50px; max-height: 38px; }
+  .logo-text { font-size: 0.9rem; }
+
   .hero { padding: 2rem 0 2.5rem; }
 
   .hero-service-grid { grid-template-columns: repeat(2, 1fr); }

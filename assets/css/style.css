@@ -224,6 +224,13 @@ p  { max-width: 65ch; }
   text-decoration: none;
 }
 
+.logo-mark {
+  width: 64px;
+  max-height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .logo-text {
   font-size: 1rem;
   font-weight: 700;
@@ -913,6 +920,22 @@ p  { max-width: 65ch; }
 
 .footer-brand .logo-text { color: var(--color-white); font-size: 1.05rem; }
 .footer-brand .logo-sub  { color: rgba(255,255,255,.5); }
+
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 210px;
+  margin-bottom: 1rem;
+  padding: 0.45rem 0.65rem;
+  background: rgba(255,255,255,.96);
+  border-radius: var(--radius);
+}
+
+.footer-logo img {
+  width: 180px;
+  height: auto;
+}
 
 .footer-brand p {
   font-size: 0.875rem;
